@@ -13,7 +13,15 @@ public class RomerTall {
 
 
     private String toRoman(int i) {
-        return "I";
+        if (i == 1){
+            return "I";
+        };
+        if (i == 2){
+            return "II";
+        };
+
+
+        return null;
     };
 
     @Test
