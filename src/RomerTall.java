@@ -19,6 +19,9 @@ public class RomerTall {
         if (i == 2){
             return "II";
         };
+        if (i == 3){
+            return "III";
+        }
 
 
         return null;
@@ -27,6 +30,11 @@ public class RomerTall {
     @Test
     public void shouldConvert2ToII(){
         assertEquals("II", toRoman(2));
+    }
+
+    @Test
+    public void shouldConvert3ToIII(){
+        assertEquals("III", toRoman(3));
     }
 
 }
