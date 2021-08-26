@@ -16,6 +16,11 @@ public class RomerTall {
         return "I";
     };
 
+    @Test
+    public void shouldConvert2ToII(){
+        assertEquals("II", toRoman(2));
+    }
+
 
 
 }
